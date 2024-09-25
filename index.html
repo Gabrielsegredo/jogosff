@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Acessível</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Script de Acessibilidade do UserWay -->
+    <script>
+        (function(d){
+            var s = d.createElement("script");
+            s.setAttribute("data-account", "INSIRA_SEU_CÓDIGO_USERWAY_AQUI");
+            s.setAttribute("src", "https://cdn.userway.org/widget.js");
+            (d.body || d.head).appendChild(s);
+        })(document);
+    </script>
+</head>
+<body>
+    <!-- Cabeçalho do site -->
+    <header>
+        <h1>Bem-vindo ao Meu Site Acessível</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <div class="image-row">
+            <img src="CARRO.png" alt="Imagem 1" class="image-item">
+            <img src="SUPER HEROI.png" alt="Imagem 2" class="image-item">
+            <img src="free fire.png" alt="Imagem 3" class="image-item">
+        </div>
+        <p>Somos uma empresa dedicada a tornar a web mais acessível para todos. Utilizamos as melhores práticas para garantir que nosso site seja fácil de usar e inclusivo.</p>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Melhores Jogos</li>
+            <li>Melhores desempenho em jogos</li>
+            <li>O melhor emulador de Valorant</li>
+        </ul>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Meu Site Acessível - Todos os direitos reservados.</p>
+        <p><a href="https://userway.org/" target="_blank">Powered by UserWay</a></p>
+    </footer>
+</body>
+</html>
